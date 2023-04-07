@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.wraper{
+    width: 80%;
+    margin: 10% auto;
+    background: rgb(58, 63, 58);
+    overflow: hidden;
+}
+.accord{
+    align-items: center;
+    display: flex;
+    justify-content:space-between;
+    
+    overflow: hidden;
+    padding: 5px 25px;
+    color: aliceblue;
+}
+
+.btn{
+    display: none;
+}
+.content{
+    padding: 5px 25px;
+    line-height: 24px;
+    max-height: 0;
+}
+.btn:checked + .content{
+    max-height: 200px;
+}
