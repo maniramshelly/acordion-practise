@@ -1,32 +1,29 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
 }
-.wraper{
-    width: 80%;
-    margin: 10% auto;
-    background: rgb(58, 63, 58);
-    overflow: hidden;
-}
-.accord{
-    align-items: center;
-    display: flex;
-    justify-content:space-between;
-    
-    overflow: hidden;
-    padding: 5px 25px;
-    color: aliceblue;
-}
+.wraper {
+  width: 80%;
+  margin: 10% auto;
 
-.btn{
-    display: none;
+  overflow: hidden;
 }
-.content{
-    padding: 5px 25px;
-    line-height: 24px;
-    max-height: 0;
+.accord {
+  background: #32adcc;
+  padding: 20px 26px;
+  transition: 0.9s;
 }
-.btn:checked + .content{
-    max-height: 200px;
+summary {
+  font-weight: bold;
+  overflow: hidden;
+  transition: 0.9s;
+}
+details p {
+  margin: 10px 0;
+  color: rgb(69, 70, 71);
+}
+.spacer {
+  margin: 5px 0;
 }
